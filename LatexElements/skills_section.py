@@ -10,12 +10,18 @@ class SkillsSection(LatexElement):
             self.title = title
             self.skills = skills
 
+        def text(self) -> str:
+            return f"{self.title}: {self.skills}"
+
         def get_latex(self) -> str:
             structure = r"""\textbf{/ARG1/}{: /ARG1/} \\"""
             return LatexElement.inject_variable(structure, self.title, self.skills)
 
     def __init__(self, *skills: Skill):
         self.skills = list(skills)
+
+    def text(self):
+        return "\n".join([c.text() for c in self.skills])
 
     def get_latex(self) -> str:
         structure = r"""\section{Skills}

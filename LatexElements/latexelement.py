@@ -9,6 +9,10 @@ class LatexElement(ABC):
     def get_latex(self) -> str:
         pass
 
+    @abstractmethod
+    def text(self) -> str:
+        pass
+
     def __str__(self) -> str:
         return self.get_latex()
 

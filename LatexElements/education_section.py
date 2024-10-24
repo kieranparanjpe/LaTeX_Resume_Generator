@@ -12,6 +12,9 @@ class EducationSection(LatexElement):
             self.description = description
             self.location = location
 
+        def text(self):
+            return f"{self.school}\n{self.date.text()}\n{self.description}\n{self.location}"
+
         def get_latex(self) -> str:
             structure = r"""\resumeSubheading
       {\textbf{/ARG1/}}{/ARG1/}
@@ -22,6 +25,9 @@ class EducationSection(LatexElement):
 
     def __init__(self, *educations: Education):
         self.educations = list(educations)
+
+    def text(self):
+        return "\n".join([c.text() for c in self.educations])
 
     def get_latex(self) -> str:
         structure = r"""\section{Education}

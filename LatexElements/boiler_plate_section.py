@@ -4,6 +4,9 @@ from LatexElements.latexelement import LatexElement
 class BoilerPlateSection(LatexElement):
     def __init__(self, *content: LatexElement):
         self.content = list(content)
+
+    def text(self):
+        return "\n".join([c.text() for c in self.content])
     def get_latex(self):
         form = r"""
         %-------------------------

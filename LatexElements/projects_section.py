@@ -20,6 +20,9 @@ class ProjectsSection(LatexElement):
         def update_bullet_points(self, *bullet_points: str):
             self.bullet_points = BulletPoints(*bullet_points)
 
+        def text(self):
+            return f"{self.project_title.text()}\n{self.skills}\n{self.date.text()}\n{self.bullet_points.text()}"
+
         def get_latex(self) -> str:
             structure = r"""
             \resumeProjectHeading
@@ -27,11 +30,15 @@ class ProjectsSection(LatexElement):
             /ARG1/
             """
 
-            return LatexElement.inject_variable(structure, self.project_title.get_latex(), self.skills, self.date.get_latex(),
+            return LatexElement.inject_variable(structure, self.project_title.get_latex(), self.skills,
+                                                self.date.get_latex(),
                                                 self.bullet_points.get_latex())
 
     def __init__(self, *projects: Project):
         self.projects = list(projects)
+
+    def text(self):
+        return "\n".join([c.text() for c in self.projects])
 
     def get_latex(self) -> str:
         structure = r"""\section{Projects}

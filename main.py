@@ -1,6 +1,7 @@
 # This is a sample Python script.
 import exps
 import projects
+import skills
 from LatexElements.boiler_plate_section import BoilerPlateSection
 from LatexElements.education_section import EducationSection
 from LatexElements.skills_section import SkillsSection
@@ -34,53 +35,42 @@ def print_hi(name):
         )
     )
 
-    skills_section = SkillsSection(
-        SkillsSection.Skill(
-            r"""Languages""",
-            r"""C\#, Java, Python, SQL, JavaScript, TypeScript, Golang, Bash, HTML, CSS, C"""
-        ),
-        SkillsSection.Skill(
-            r"""Frameworks/Tools""",
-            r"""Git, Docker, PyTorch, React.js, Express.js, Unity, Linux, Firebase"""
-        ),
-        SkillsSection.Skill(
-            r"""Soft Skills""",
-            r"""Public Speaking, Leadership, Concise Communication, Quick Learning, Teamwork"""
-        )
-    )
-
-    ml_skills_section = SkillsSection(
-        SkillsSection.Skill(
-            r"""Languages""",
-            r"""Python, SQL, C\#, Java, JavaScript, TypeScript, Golang, Bash, HTML, CSS, C"""
-        ),
-        SkillsSection.Skill(
-            r"""Frameworks/Tools""",
-            r"""Git, PyTorch, Docker, React.js, Express.js, Unity, Linux, Firebase"""
-        ),
-        SkillsSection.Skill(
-            r"""Soft Skills""",
-            r"""Public Speaking, Leadership, Concise Communication, Quick Learning, Teamwork"""
-        )
-    )
+    # ----- GENERAL SWE ----:
+    skills_section = skills.skills(skills.programming, skills.frameworks, skills.soft_skills)
 
     experience_section = exps.experiences(exps.the_verse, exps.hack4i,
                                           exps.unity_dev, exps.robotics,
                                           exps.stemphilic)
     projects_section = projects.projects(projects.myNN, projects.url_shortener, projects.spotify_mp3)
 
-    ml_experience = exps.experiences(exps.the_verse_ml, exps.hack4i,
-                                          exps.unity_dev, exps.robotics, exps.stemphilic)
-
     swe_resume = BoilerPlateSection(title_section, education_section, skills_section, experience_section,
-                                     projects_section)
+                                    projects_section)
+    # ----- ML ----:
 
-    ml_resume = BoilerPlateSection(title_section, education_section, ml_skills_section, ml_experience,
-                                     projects_section)
+    ml_skills = skills.skills(skills.programming_ml, skills.frameworks, skills.soft_skills)
+
+    ml_experience = exps.experiences(exps.the_verse_ml, exps.hack4i,
+                                     exps.unity_dev, exps.robotics, exps.stemphilic)
+
+    ml_resume = BoilerPlateSection(title_section, education_section, ml_skills, ml_experience,
+                                   projects_section)
+
+    # ----- GameDev ----:
+    skills_section = skills.skills(skills.programming, skills.frameworks_gamedev, skills.soft_skills)
+
+    experience_section = exps.experiences(exps.the_verse, exps.hack4i,
+                                          exps.unity_dev, exps.robotics,
+                                          exps.stemphilic)
+    projects_section = projects.projects(projects.myNN, projects.url_shortener, projects.spotify_mp3)
+
+    game_dev = BoilerPlateSection(title_section, education_section, skills_section, experience_section,
+                                  projects_section)
 
     resume = ml_resume.get_latex()
     print(resume)
     clipboard.copy(resume)
+
+    clipboard.copy(swe_resume.text())
 
 
 # Press the green button in the gutter to run the script.

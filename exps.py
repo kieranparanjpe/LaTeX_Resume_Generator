@@ -14,7 +14,7 @@ def the_verse() -> ExperienceSection.Experience:
 
         r"""Developed a library that tracks breath rate in real-time using microphone input by training a convolutional neural network that takes mel spectrograms as input with PyTorch, achieving classification accuracy of 85\%.""",
         r"""Created an annotated breath audio dataset with over 50 minutes of breathing samples by implementing a web-app made with JavaScript and p5.js that records breath audio and uploads it to a Firebase storage bucket.""",
-        r"""Ported and optimised the PyTorch model to run in C\# so it could be used in Unity, yielding a 5x speedup by converting the model to .ONNX, and analysing running time of specific functions using the Unity profiler.""",
+        r"""Ported and optimised the PyTorch model to run in C\# to be used in Unity, yielding a 5x speedup by converting the model to .ONNX, and analysing the running time of specific functions using the Unity profiler.""",
         r"""Reverse engineered PyTorch's short time Fourier transform, spectrogram, and mel spectrogram by stepping through Python source code with the debugger and reproducing functionality in C\#.""",
         r"""Directed development by leading meetings with other interns working on the breath library."""
 

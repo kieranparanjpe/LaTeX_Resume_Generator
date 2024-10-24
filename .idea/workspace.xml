@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1a485e-8ca3-40c3-8e47-7d7acfd1fdee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LaTeX_Resume_Generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/boiler_plate_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/bullet_points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/date_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/education_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/experience_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/has_bullet_points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/latexelement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/projects_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/skills_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/title_link.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LatexElements/title_section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects.py" afterDir="false" />
+    <list default="true" id="cb1a485e-8ca3-40c3-8e47-7d7acfd1fdee" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/skills.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/boiler_plate_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/boiler_plate_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/bullet_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/bullet_points.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/date_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/date_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/education_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/education_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/experience_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/experience_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/latexelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/latexelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/projects_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/projects_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/skills_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/skills_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/title_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/title_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatexElements/title_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/title_section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exps.py" beforeDir="false" afterPath="$PROJECT_DIR$/exps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kiera\Documents\PythonProjects\LaTeX_Resume_Generator\LatexElements" />
@@ -112,25 +105,39 @@
       <option name="presentableId" value="Default" />
       <updated>1729531050516</updated>
       <workItem from="1729531072807" duration="6136000" />
-      <workItem from="1729658738728" duration="13600000" />
+      <workItem from="1729658738728" duration="13883000" />
+      <workItem from="1729794928234" duration="2744000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1729705424096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729705424096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LatexElements/projects_section.py</url>
-          <line>36</line>
+          <line>43</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LaTeX_Resume_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1729705257288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LaTeX_Resume_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1729797155910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

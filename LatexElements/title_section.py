@@ -8,6 +8,9 @@ class TitleSection(LatexElement):
         def __init__(self, locations: List[str]):
             self.locations = list(locations)
 
+        def text(self) -> str:
+            return " | ".join(self.locations)
+
         def get_latex(self) -> str:
             structure = LatexElement.inject_variable(r"\large {\scshape /ARG0/} \\ \vspace{1pt}",
                                                      self.locations, delimiter=r" $\&$ ")
@@ -20,6 +23,9 @@ class TitleSection(LatexElement):
                 self.title = title
                 self.url = url
 
+            def text(self) -> str:
+                return self.title
+
             def get_latex(self):
                 if self.url is None:
                     return self.title
@@ -28,6 +34,9 @@ class TitleSection(LatexElement):
 
         def __init__(self, links: List[Link]):
             self.links = links
+
+        def text(self) -> str:
+            return " | ".join([l.text() for l in self.links])
 
         def get_latex(self) -> str:
 
@@ -40,6 +49,9 @@ class TitleSection(LatexElement):
         self.name = name
         self.locations = TitleSection.Locations(locations if locations is not None else [])
         self.links = TitleSection.Links(links if links is not None else {})
+
+    def text(self) -> str:
+        return f"{self.name}\n{self.locations.text()}\n{self.links.text()}"
 
     def get_latex(self) -> str:
         structure = r"""

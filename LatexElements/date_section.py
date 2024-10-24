@@ -6,7 +6,10 @@ class DateSection(LatexElement):
         self.start = start
         self.end = end
 
-    def get_latex(self):
+    def text(self):
         if self.end is not None:
             return f"{self.start} - {self.end}"
         return self.start
+
+    def get_latex(self):
+        return self.text()

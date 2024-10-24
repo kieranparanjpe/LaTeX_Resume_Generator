@@ -2,9 +2,12 @@ from LatexElements.latexelement import LatexElement
 
 
 class TitleLink(LatexElement):
-    def __init__(self, title, link):
+    def __init__(self, title: str, link: str):
         self.title = title
         self.link = link
+
+    def text(self) -> str:
+        return f"{self.title}"
 
     def get_latex(self) -> str:
         title = ""

@@ -18,6 +18,9 @@ class ExperienceSection(LatexElement):
             self.location = location
             self.bullet_points = BulletPoints(*bullet_points)
 
+        def text(self):
+            return f"{self.job_title.text()}\n{self.skills}\n{self.company}\n{self.date.text()}\n{self.location}\n{self.bullet_points.text()}"
+
         def update_bullet_points(self, *bullet_points: str):
             self.bullet_points = BulletPoints(*bullet_points)
 
@@ -37,6 +40,9 @@ class ExperienceSection(LatexElement):
 
     def __init__(self, *experiences: Experience):
         self.experiences = list(experiences)
+
+    def text(self):
+        return "\n".join([c.text() for c in self.experiences])
 
     def get_latex(self) -> str:
         structure = r"""\section{Experience}

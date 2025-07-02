@@ -30,7 +30,7 @@ def print_hi(name):
         EducationSection.Education(
             r"""McGill University""",
             (r"""August 2023""", r"""April 2027"""),
-            r"""BSc in Computer Science (AI), Minor in Cognitive Science $\mid$ 4.00 GPA""",
+            r"""BSc in Computer Science (AI), Minor in Cognitive Science $\mid$ 3.97 GPA""",
             r"""Montreal, QC"""
         )
     )
@@ -38,9 +38,8 @@ def print_hi(name):
     # ----- GENERAL SWE ----:
     skills_section = skills.skills(skills.programming, skills.frameworks, skills.soft_skills)
 
-    experience_section = exps.experiences(exps.the_verse, exps.hack4i,
-                                          exps.unity_dev, exps.robotics,
-                                          exps.stemphilic)
+    experience_section = exps.experiences(exps.autodesk, exps.the_verse,
+                                          exps.unity_dev, exps.robotics)
     projects_section = projects.projects(projects.myNN, projects.url_shortener, projects.spotify_mp3)
 
     swe_resume = BoilerPlateSection(title_section, education_section, skills_section, experience_section,
@@ -58,7 +57,7 @@ def print_hi(name):
     # ----- GameDev ----:
     skills_section = skills.skills(skills.programming, skills.frameworks_gamedev, skills.soft_skills)
 
-    experience_section = exps.experiences(exps.the_verse, exps.hack4i,
+    experience_section = exps.experiences(exps.autodesk, exps.the_verse, exps.hack4i,
                                           exps.unity_dev, exps.robotics,
                                           exps.stemphilic)
     projects_section = projects.projects(projects.myNN, projects.url_shortener, projects.spotify_mp3)
@@ -67,10 +66,11 @@ def print_hi(name):
                                   projects_section)
 
     resume = ml_resume.get_latex()
+    resume = swe_resume.get_latex()
     print(resume)
     clipboard.copy(resume)
 
-    clipboard.copy(swe_resume.text())
+    # clipboard.copy(swe_resume.text())
 
 
 # Press the green button in the gutter to run the script.

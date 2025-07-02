@@ -3,6 +3,20 @@ from typing import Callable
 from LatexElements.experience_section import ExperienceSection
 from LatexElements.latexelement import LatexElement
 
+def autodesk() -> ExperienceSection.Experience:
+    return ExperienceSection.Experience(
+        (r"""Software Developer Intern""", r""""""),
+        r"""Java, SpringBoot""",
+        r"""Autodesk""",
+        (r"""January 2025""", r"""April 2025"""),
+        r"""Montreal, QC""",
+
+        r"""Working on Platform Services to cloud collaboration solutions for Autodesk products in architecture, design and media.""",
+                    r"""Optimised a PATCH request in a Command Query Responsibility Separation (CQRS) system by analyzing polling operations and reducing an unnecessary API request, resulting in a 
+                    250ms speedup per operation.""",
+
+    )
+
 
 def the_verse() -> ExperienceSection.Experience:
     return ExperienceSection.Experience(

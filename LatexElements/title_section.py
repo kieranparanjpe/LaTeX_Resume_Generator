@@ -13,7 +13,7 @@ class TitleSection(LatexElement):
 
         def get_latex(self) -> str:
             structure = LatexElement.inject_variable(r"\large {\scshape /ARG0/} \\ \vspace{1pt}",
-                                                     self.locations, delimiter=r" $\&$ ")
+                                                     list(self.locations), delimiter=r" $\&$ ")
             return structure
 
     class Links(LatexElement):
@@ -41,7 +41,7 @@ class TitleSection(LatexElement):
         def get_latex(self) -> str:
 
             structure = LatexElement.inject_variable(r"""\normalsize  /ARG0/""",
-                                                     self.links, delimiter=r" $|$ ")
+                                                     list(self.links), delimiter=r" $|$ ")
 
             return structure
 

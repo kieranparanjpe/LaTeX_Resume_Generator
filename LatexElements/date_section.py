@@ -7,7 +7,7 @@ class DateSection(LatexElement):
         self.end = end
 
     def text(self):
-        if self.end is not None:
+        if self.end is not None and self.end != "":
             return f"{self.start} - {self.end}"
         return self.start
 

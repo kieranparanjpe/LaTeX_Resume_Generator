@@ -5,25 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1a485e-8ca3-40c3-8e47-7d7acfd1fdee" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/skills.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LaTeX_Resume_Generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LaTeX_Resume_Generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/boiler_plate_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/boiler_plate_section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/bullet_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/bullet_points.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LatexElements/date_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/date_section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/education_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/education_section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/experience_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/experience_section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/latexelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/latexelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/projects_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/projects_section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/skills_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/skills_section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/title_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/title_link.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LatexElements/title_section.py" beforeDir="false" afterPath="$PROJECT_DIR$/LatexElements/title_section.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exps.py" beforeDir="false" afterPath="$PROJECT_DIR$/exps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="22" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,11 +32,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2nkxoSRY9x4wxRsSgp9i1HMGFNs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,14 +47,21 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kiera/Documents/CodingProjects/PythonProjects/LaTeX_Resume_Generator&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,6 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -92,7 +100,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.173" />
+        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
       </set>
     </attachedChunks>
   </component>
@@ -107,6 +116,21 @@
       <workItem from="1729531072807" duration="6136000" />
       <workItem from="1729658738728" duration="13883000" />
       <workItem from="1729794928234" duration="2744000" />
+      <workItem from="1731601677216" duration="1567000" />
+      <workItem from="1733163631978" duration="143000" />
+      <workItem from="1738114628385" duration="661000" />
+      <workItem from="1750561872528" duration="2926000" />
+      <workItem from="1750565829819" duration="4426000" />
+      <workItem from="1751398218778" duration="5561000" />
+      <workItem from="1751767625175" duration="483000" />
+      <workItem from="1752626092653" duration="43000" />
+      <workItem from="1752626628344" duration="229000" />
+      <workItem from="1758225515610" duration="659000" />
+      <workItem from="1759688358549" duration="32000" />
+      <workItem from="1771543561534" duration="1882000" />
+      <workItem from="1771714731931" duration="76000" />
+      <workItem from="1784941186585" duration="2011000" />
+      <workItem from="1784943243900" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -134,10 +158,25 @@
           <line>43</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LatexElements/experience_section.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LatexElements/bullet_points.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LatexElements/bullet_points.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LaTeX_Resume_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1729797155910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LaTeX_Resume_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1784943057906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

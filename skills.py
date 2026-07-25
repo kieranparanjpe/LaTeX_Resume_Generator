@@ -8,28 +8,46 @@ from LatexElements.skills_section import SkillsSection
 def programming() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Languages""",
-        r"""C\#, Java, Python, JavaScript, TypeScript, SQL, Golang, Bash, HTML, CSS, C"""
+        r"""C\#, Java, Python, JavaScript, TypeScript, C++, SQL, Golang, Bash, HTML, CSS"""
     )
 
 
 def programming_ml() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Languages""",
-        r"""Python, SQL, C\#, Java, JavaScript, TypeScript, Golang, Bash, HTML, CSS, C"""
+        r"""Python, SQL, C\#, Java, JavaScript, TypeScript, C++, Golang, Bash, HTML, CSS"""
+    )
+
+def programming_reduced() -> SkillsSection.Skill:
+    return SkillsSection.Skill(
+        r"""Languages""",
+        r"""Python, Java, C\#, Java, TypeScript, C++"""
     )
 
 
 def frameworks() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, Docker, PyTorch, React.js, Express.js, Unity, Linux, Firebase"""
+        r"""Git, Spring Boot, Docker, PyTorch, MCP, Unity, Linux, Firebase, Splunk"""
+    )
+
+def frameworks_ml() -> SkillsSection.Skill:
+    return SkillsSection.Skill(
+        r"""Frameworks/Tools""",
+        r"""Git, PyTorch, Linux, Unity, Docker, ROS2, MCP, Fusion 360"""
+    )
+
+def frameworks_robotics() -> SkillsSection.Skill:
+    return SkillsSection.Skill(
+        r"""Frameworks/Tools""",
+        r"""Git, PyTorch, ROS2, Linux, Docker, Unity, Blender, Fusion 360, MCP"""
     )
 
 
 def frameworks_gamedev():
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, Unity, Docker, PyTorch, React.js, Express.js, Linux, Firebase, Blender, Fusion 360"""
+        r"""Git, Unity, Docker, PyTorch, Spring Boot, React.js, Express.js, Linux, Firebase, Blender, Fusion 360"""
     )
 
 

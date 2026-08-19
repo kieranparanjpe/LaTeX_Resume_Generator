@@ -21,26 +21,26 @@ def programming_ml() -> SkillsSection.Skill:
 def programming_reduced() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Languages""",
-        r"""Python, Java, C\#, Java, TypeScript, C++"""
+        r"""Python, Java, C\#, TypeScript, C++"""
     )
 
 
 def frameworks() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, Spring Boot, Docker, PyTorch, MCP, Unity, Linux, Firebase, Splunk"""
+        r"""Git, Spring Boot, Docker, PyTorch, MCP, Unity, Linux, Firebase, Splunk, Dynatrace"""
     )
 
 def frameworks_ml() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, PyTorch, Linux, Unity, Docker, ROS2, MCP, Fusion 360"""
+        r"""Git, PyTorch, Linux, Unity, Docker, ROS2, MCP, Fusion 360, MujoCo"""
     )
 
 def frameworks_robotics() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, PyTorch, ROS2, Linux, Docker, Unity, Blender, Fusion 360, MCP"""
+        r"""Git, PyTorch, ROS2, Linux, Docker, Unity, Blender, Fusion 360, MCP, MujoCo"""
     )
 
 

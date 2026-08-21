@@ -70,7 +70,7 @@ def print_hi(name):
     rbt_resume = BoilerPlateSection(title_section, education_section, skills_section_rbt, experience_section_ml,
                                    projects_section_ml)
 
-    resume = ml_resume.get_latex()
+    resume = rbt_resume.get_latex()
     print(resume)
     clipboard.copy(resume)
 

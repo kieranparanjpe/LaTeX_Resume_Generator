@@ -11,7 +11,8 @@ def autodesk_2() -> ExperienceSection.Experience:
         (r"""May 2026""", r"""August 2026"""),
         r"""Montreal, QC""",
         r"""Delivered the MEDM MCP server, an \textbf{entirely new service}, and deployed it to production.""",
-        r"""Implemented \textbf{over 20 new MCP tools} allowing users to search, view and query their live data.""",
+        r"""Implemented \textbf{over 25 new MCP tools}, allowing users to create, read, search, and update their 
+        live data through a chat interface.""",
         r"""Developed a local MCP server that runs in the frontend application so the LLM can interact natively with 
         UI.""",
         r"""Integrated the MCP server with the AI assistant, accessible via a chat window in our Asset Management 

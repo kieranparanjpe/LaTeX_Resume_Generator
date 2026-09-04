@@ -34,13 +34,13 @@ def frameworks() -> SkillsSection.Skill:
 def frameworks_ml() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, PyTorch, Linux, Unity, Docker, ROS2, MCP, Fusion 360, MujoCo"""
+        r"""Git, PyTorch, Linux, Unity, Docker, ROS2, MCP, Fusion 360, MuJoCo"""
     )
 
 def frameworks_robotics() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Frameworks/Tools""",
-        r"""Git, PyTorch, ROS2, Linux, Docker, Unity, Blender, Fusion 360, MCP, MujoCo"""
+        r"""Git, PyTorch, ROS2, Linux, Docker, Unity, Blender, Fusion 360, MCP, MuJoCo"""
     )
 
 

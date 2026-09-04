@@ -28,7 +28,7 @@ def autodesk() -> ExperienceSection.Experience:
         r"""Autodesk""",
         (r"""January 2025""", r"""August 2025"""),
         r"""Montreal, QC""",
-        r"""Implemented a \textbf{cycle detection algorithm} to ensure batches of commands can be topologically sorted by combining \textbf{depth first search} and a \textbf{greedy solution to the 'hitting set problem'}, resulting in \textbf{30\% fewer commands} generated and a \textbf{20\% speedup}.""",
+        r"""Implemented a \textbf{cycle detection algorithm} to ensure batches of commands can be topologically sorted by combining \textbf{depth-first search} and a \textbf{greedy solution to the 'hitting set problem'}, resulting in \textbf{30\% fewer commands} generated and a \textbf{20\% speedup}.""",
         r"""Implemented a \textbf{REST client} for search by creating data models and handling errors, achieving \textbf{100\% test coverage}.""",
         r"""Added polymorphic-type filter support for search by calling our Types REST API to expand a single RSQL operator into multiple RSQL operators, maintaining 100\% test coverage.""",
         r"""Created an \textbf{end-to-end deploy test suite} for the search service containing \textbf{over 50 tests} to run \textbf{locally and in Jenkins} by syncing test data between local and staging, managing \textbf{run-time SQL injection} and writing \textbf{parameterised JUnit tests}.""",
@@ -45,9 +45,9 @@ def the_verse() -> ExperienceSection.Experience:
         r"""Vancouver, BC / Remote""",
 
         r"""Developed a library that tracks breath rate in real-time using microphone input by training a \textbf{convolutional neural network} that takes mel spectrograms as input with \textbf{PyTorch}, achieving classification accuracy of 85\%.""",
-        r"""Created a breath audio dataset with over 50 minutes of annotated breathing samples by implementing a web-app made with \textbf{JavaScript and p5.js} that records breath audio and uploads it to a \textbf{Firebase storage bucket}.""",
+        r"""Created a breath audio dataset with over 50 minutes of annotated breathing samples by implementing a web app made with \textbf{JavaScript and p5.js} that records breath audio and uploads it to a \textbf{Firebase storage bucket}.""",
         r"""Ported and \textbf{optimised the PyTorch model to run in C\#} to be used in Unity, yielding a \textbf{5x speedup} by converting the model to .ONNX, and analysing the running time of specific functions using the \textbf{Unity profiler}.""",
-        r"""Reverse engineered PyTorch's short time Fourier transform, spectrogram, and mel spectrogram by stepping through PyTorch source code with a debugger and reproducing its functionality in C\#.""",
+        r"""Reverse-engineered PyTorch's short-time Fourier transform, spectrogram, and mel spectrogram by stepping through PyTorch source code with a debugger and reproducing its functionality in C\#.""",
     )
 
 
@@ -65,7 +65,7 @@ def hack4i() -> ExperienceSection.Experience:
         (r"""April 2024""", r"""Current"""),
         r"""Montreal, QC""",
         r"""Developing the backend of an internal logistics website to be used by Welcome Collective Montreal.""",
-        r"""Implemented JWT authentication middleware with Typescript."""
+        r"""Implemented JWT authentication middleware with TypeScript."""
 
     )
 
@@ -80,7 +80,7 @@ def unity_dev() -> ExperienceSection.Experience:
         r"""\textbf{Published 12 video games over 7 years} on itch.io and Google Play using Unity and C\#, garnering \textbf{over 1000 users} total.""",
         r"""Developed an active ragdoll platforming game by applying Unity's \textbf{physics engine} to map \textbf{rigged animations} onto joints.""",
         r"""Implemented \textbf{finite state machines} and \textbf{behaviour trees} alongside Unity's \textbf{NavMesh} across projects to bolster NPC intelligence.""",
-        r"""Designed and created a \textbf{multiplayer first person shooter} using Photon Unity Networking, including support for \textbf{matchmaking}, \textbf{team game modes and free for all}, \textbf{automatic respawns}, and \textbf{synchronised movement}, \textbf{shooting and powerups}.""",
+        r"""Designed and created a \textbf{multiplayer first-person shooter} using Photon Unity Networking, including support for \textbf{matchmaking}, \textbf{team game modes and free-for-all}, \textbf{automatic respawns}, and \textbf{synchronised movement}, \textbf{shooting and powerups}.""",
     )
 
 

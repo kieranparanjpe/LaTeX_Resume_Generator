@@ -49,7 +49,7 @@ def print_hi(name):
 
     experience_section_ml = exps.experiences(exps.autodesk_2, exps.autodesk, exps.the_verse_ml)
 
-    projects_section_ml = projects.projects(projects.ppoRL, projects.myNN, projects.unity_dev)
+    projects_section_ml = projects.projects(projects.jepaWorldModel, projects.ppoRL, projects.myNN)
 
 
     ml_resume = BoilerPlateSection(title_section, education_section, skills_section_ml, experience_section_ml,
@@ -63,6 +63,8 @@ def print_hi(name):
 
     game_dev = BoilerPlateSection(title_section, education_section, skills_section_gd, experience_section_gd,
                                   projects_section_swe)
+
+
 
     # ----- Robotics ----:
     skills_section_rbt = skills.skills(skills.programming_reduced, skills.frameworks_robotics, skills.soft_skills)

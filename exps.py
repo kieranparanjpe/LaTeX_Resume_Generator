@@ -3,6 +3,17 @@ from typing import Callable
 from LatexElements.experience_section import ExperienceSection
 from LatexElements.latexelement import LatexElement
 
+def hsiu_chin_lab() -> ExperienceSection.Experience:
+    return ExperienceSection.Experience(
+        (r"""Part-time Undergraduate Researcher""", r""""""),
+        r"""Python, Robotics, IsaacLab, MuJoCo, ROS2, Gazebo""",
+        r"""McGill Centre for Intelligent Machines""",
+        (r"""September 2026""", r"""December 2026"""),
+        r"""Montreal, QC""",
+        r"""Trained velocity locomotion policies for the Unitree H2 using IsaacLab and MuJoCo.""",
+        r"""Developed ROS2 packages to bridge between the Gazebo simulator and the policies trained in IsaacLab to complete a successful Sim2Sim transfer from IsaacLab to Gazebo.""",
+    )
+
 def autodesk_2() -> ExperienceSection.Experience:
     return ExperienceSection.Experience(
         (r"""Software Engineering Intern""", r""""""),
@@ -19,6 +30,19 @@ def autodesk_2() -> ExperienceSection.Experience:
         frontend.""",
         r"""Wrote the entire testing framework for the service, bringing \textbf{test coverage from 0\% to 
         \textgreater 80\%}."""
+    )
+
+def autodesk_1_min() -> ExperienceSection.Experience:
+    return ExperienceSection.Experience(
+        (r"""Software Engineering Intern""", r""""""),
+        r"""Java, TypeScript, Spring Boot, Git, Docker, AGILE, Splunk, JUnit""",
+        r"""Autodesk""",
+        (r"""January 2025""", r"""August 2025"""),
+        r"""Montreal, QC""",
+        r"""Implemented a \textbf{cycle detection algorithm} to ensure batches of commands can be topologically sorted by combining \textbf{depth-first search} and a \textbf{greedy solution to the 'hitting set problem'}, resulting in \textbf{30\% fewer commands} generated and a \textbf{20\% speedup}.""",
+        r"""Implemented a \textbf{REST client} for search by creating data models and handling errors, achieving \textbf{100\% test coverage}.""",
+        r"""Added polymorphic-type filter support for search by calling our Types REST API to expand a single RSQL operator into multiple RSQL operators, maintaining 100\% test coverage.""",
+        r"""Created an \textbf{end-to-end deploy test suite} for the search service containing \textbf{over 50 tests} to run \textbf{locally and in Jenkins} by syncing test data between local and staging, managing \textbf{run-time SQL injection} and writing \textbf{parameterised JUnit tests}.""",
     )
 
 def autodesk() -> ExperienceSection.Experience:

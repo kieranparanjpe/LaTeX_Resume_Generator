@@ -30,7 +30,8 @@ def print_hi(name):
         EducationSection.Education(
             r"""McGill University""",
             (r"""2027""", None),
-            r"""BSc in Computer Science $\mid$ 3.95 GPA""",
+            r"""BSc in Computer Science $\mid$ 3.95 GPA $\mid$ Graduate courses: Applied ML, Applied Robotics, Computer Vision, 
+            Robotics \& AI""",
             r"""Montreal, QC"""
         )
     )
@@ -47,7 +48,7 @@ def print_hi(name):
 
     skills_section_ml = skills.skills(skills.programming_reduced, skills.frameworks_ml, skills.soft_skills)
 
-    experience_section_ml = exps.experiences(exps.autodesk_2, exps.autodesk, exps.the_verse_ml)
+    experience_section_ml = exps.experiences(exps.hsiu_chin_lab, exps.autodesk_2, exps.autodesk_1_min, exps.the_verse_ml)
 
     projects_section_ml = projects.projects(projects.jepaWorldModel, projects.ppoRL, projects.myNN)
 

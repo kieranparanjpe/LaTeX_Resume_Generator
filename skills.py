@@ -54,7 +54,7 @@ def frameworks_gamedev():
 def soft_skills() -> SkillsSection.Skill:
     return SkillsSection.Skill(
         r"""Soft Skills""",
-        r"""Public Speaking, Leadership, Concise Communication, Quick Learning, Teamwork"""
+        r"""Public Speaking, Leadership, Concise Communication, Fast Learner, Teamwork"""
     )
 
 

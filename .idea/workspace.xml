@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1a485e-8ca3-40c3-8e47-7d7acfd1fdee" name="Changes" comment="initial">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exps.py" beforeDir="false" afterPath="$PROJECT_DIR$/exps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skills.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +130,12 @@
       <workItem from="1787508480669" duration="1415000" />
       <workItem from="1787523657547" duration="15000" />
       <workItem from="1788398195679" duration="1035000" />
-      <workItem from="1788471989527" duration="4931000" />
+      <workItem from="1788471989527" duration="5598000" />
+      <workItem from="1788652359709" duration="645000" />
+      <workItem from="1788824580292" duration="6000" />
+      <workItem from="1788918157902" duration="35000" />
+      <workItem from="1790831935165" duration="2278000" />
+      <workItem from="1790973609368" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -179,7 +182,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1788398393384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1788481116418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LaTeX_Resume_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1784943057906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
